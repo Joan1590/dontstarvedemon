@@ -1,0 +1,9 @@
+<Atlas>
+    <Texture filename="phases.tex" />
+    <Elements>
+        <Element name="phase_calm.tex" u1="0.0" v1="0.5" u2="0.5" v2="1.0" />
+        <Element name="phase_warn.tex" u1="0.5" v1="0.5" u2="1.0" v2="1.0" />
+        <Element name="phase_wild.tex" u1="0.0" v1="0.0" u2="0.5" v2="0.5" />
+        <Element name="phase_dawn.tex" u1="0.5" v1="0.0" u2="1.0" v2="0.5" />
+    </Elements>
+</Atlas>

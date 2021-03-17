@@ -1,0 +1,1677 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"LwCre",
+				"Lw_CtrlCamera"
+			],
+			[
+				"sta",
+				"states"
+			],
+			[
+				"hud",
+				"ghostHUD"
+			],
+			[
+				"i",
+				"inst"
+			],
+			[
+				"SOu",
+				"SOUND"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"ABUIN",
+				"HOMURA_ADDBUFF_INV"
+			],
+			[
+				"homurawebu",
+				"homura_weapon_buff"
+			],
+			[
+				"Ass",
+				"Asset"
+			],
+			[
+				"As",
+				"Assets"
+			],
+			[
+				"Howe",
+				"HomuraWeapon"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"hotimtrigg",
+				"_homura_timemagic_trigger"
+			],
+			[
+				"homurat",
+				"homuraTag_pause"
+			],
+			[
+				"upda",
+				"Update"
+			],
+			[
+				"focut",
+				"focustarget"
+			],
+			[
+				"pre",
+				"pref"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"plas",
+				"players"
+			],
+			[
+				"MakeCommonMissileMsa",
+				"MakeCommonMissileMaster"
+			],
+			[
+				"MakeCommonMissileCo",
+				"MakeCommonMissileCommon"
+			],
+			[
+				"com",
+				"common"
+			],
+			[
+				"Settin",
+				"SetPristine"
+			],
+			[
+				"hod",
+				"homuraVar_magiccenter_dirty"
+			],
+			[
+				"then",
+				"then"
+			],
+			[
+				"neu",
+				"lw_nextupdatetick"
+			],
+			[
+				"plaervi",
+				"playervision"
+			],
+			[
+				"plpoin",
+				"playervisionpostinit"
+			],
+			[
+				"hea",
+				"heart"
+			],
+			[
+				"uda",
+				"ItemUpdate"
+			],
+			[
+				"Lo",
+				"LightShocked"
+			],
+			[
+				"al",
+				"alpha"
+			],
+			[
+				"ho",
+				"homura_lightshock_alpha"
+			],
+			[
+				"its",
+				"items"
+			],
+			[
+				"REti",
+				"RemoveItem"
+			],
+			[
+				"unabl",
+				"upnwrappable"
+			],
+			[
+				"langua",
+				"LANGUAGE"
+			],
+			[
+				"sada",
+				"sayaka_darkness_debuff"
+			],
+			[
+				"saya",
+				"sayaka_darkness_debuff"
+			],
+			[
+				"skillsa",
+				"SKILL_sayaka"
+			],
+			[
+				"nameS",
+				"NAMES"
+			],
+			[
+				"pe",
+				"peach"
+			],
+			[
+				"IsRain",
+				"is_raining"
+			],
+			[
+				"NAMes",
+				"names"
+			],
+			[
+				"dmiu",
+				"DynamicMusic"
+			],
+			[
+				"ls",
+				"lanterns"
+			],
+			[
+				"cold",
+				"cooldown"
+			],
+			[
+				"hung",
+				"Hunger"
+			],
+			[
+				"pis",
+				"pairs"
+			],
+			[
+				"gr",
+				"grow"
+			],
+			[
+				"gho",
+				"ghost"
+			],
+			[
+				"mk_",
+				"mk_cloud"
+			],
+			[
+				"post",
+				"pos_task"
+			],
+			[
+				"GetR",
+				"GetRandomMinMax"
+			],
+			[
+				"cloud",
+				"Cloud"
+			],
+			[
+				"ma",
+				"MakeInventoryFloatable"
+			],
+			[
+				"ha",
+				"hay"
+			],
+			[
+				"rech",
+				"recharge"
+			],
+			[
+				"mkma",
+				"mk_timerbuff_manager"
+			],
+			[
+				"iv",
+				"inventory"
+			],
+			[
+				"bu",
+				"bufffns"
+			],
+			[
+				"monk",
+				"monkey"
+			],
+			[
+				"mo",
+				"puella_mod_timescale"
+			],
+			[
+				"tick",
+				"TICK"
+			],
+			[
+				"das",
+				"hit_darkness"
+			],
+			[
+				"pmm",
+				"pmmm_sd_darkattack"
+			],
+			[
+				"wi",
+				"wilsonboating"
+			],
+			[
+				"wil",
+				"wilson"
+			],
+			[
+				"loca",
+				"lock_alpha_time"
+			],
+			[
+				"setdar",
+				"SetDarknessAttack"
+			],
+			[
+				"apmint",
+				"alpha_min_target"
+			],
+			[
+				"Fad",
+				"FadeIn"
+			],
+			[
+				"puel",
+				"puellaUI_sgdark"
+			],
+			[
+				"pcs",
+				"PickUpNormalShadow"
+			],
+			[
+				"uian",
+				"UIAnim"
+			],
+			[
+				"ches",
+				"CheckDistance"
+			],
+			[
+				"NAMe",
+				"name"
+			],
+			[
+				"fol",
+				"follower"
+			],
+			[
+				"folwe",
+				"followers"
+			],
+			[
+				"Timl",
+				"TimeLine"
+			],
+			[
+				"Be",
+				"BehaviorLine"
+			],
+			[
+				"Tim",
+				"TimeLine1"
+			],
+			[
+				"Til",
+				"TimeLine"
+			],
+			[
+				"Tl",
+				"TimeLine"
+			],
+			[
+				"co",
+				"cor"
+			],
+			[
+				"nigs",
+				"night_segs"
+			],
+			[
+				"huw",
+				"homura_weapon"
+			],
+			[
+				"att",
+				"attacker"
+			],
+			[
+				"an",
+				"ammoNum"
+			],
+			[
+				"hop",
+				"HomuraProjectile"
+			],
+			[
+				"loc",
+				"locomotor"
+			],
+			[
+				"trs",
+				"Transform"
+			],
+			[
+				"has",
+				"hasbuff"
+			],
+			[
+				"humw",
+				"HomuraWeapon"
+			],
+			[
+				"Co",
+				"Copy"
+			],
+			[
+				"new",
+				"newtable"
+			],
+			[
+				"nams",
+				"NAMES"
+			],
+			[
+				"nam",
+				"NAME"
+			],
+			[
+				"pek",
+				"previouskey"
+			],
+			[
+				"prot",
+				"projectile"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"pref",
+				"prefab"
+			],
+			[
+				"updat",
+				"UpdateTail"
+			],
+			[
+				"howo",
+				"HomuraWeapon"
+			],
+			[
+				"homura",
+				"homura_weapon_buff"
+			],
+			[
+				"buff",
+				"Buff"
+			],
+			[
+				"v",
+				"variety"
+			],
+			[
+				"ont",
+				"OnThrown"
+			],
+			[
+				"po",
+				"projectile"
+			],
+			[
+				"bufs",
+				"buffs"
+			],
+			[
+				"cab",
+				"canbeadd"
+			],
+			[
+				"hw",
+				"HomuraWeapon"
+			],
+			[
+				"how",
+				"HomuraWeapon"
+			],
+			[
+				"homw",
+				"homura_wrench"
+			],
+			[
+				"hom",
+				"homura_weapon_buffs"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"se",
+				"SoundEmitter"
+			],
+			[
+				"l",
+				"lightfx"
+			],
+			[
+				"SP",
+				"SpawnPrefab"
+			],
+			[
+				"PU",
+				"PUELLA_MOD_STRINGS"
+			],
+			[
+				"spa",
+				"spawn_interval"
+			],
+			[
+				"ima",
+				"Image"
+			],
+			[
+				"soug",
+				"soulgem"
+			],
+			[
+				"SetS",
+				"SetString"
+			],
+			[
+				"witchqw",
+				"WITCH_QW"
+			],
+			[
+				"spwe",
+				"spawner_table"
+			],
+			[
+				"qw",
+				"qw_flowerspawner"
+			],
+			[
+				"So",
+				"AddSoundEmitter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "modmain.lua",
+			"settings":
+			{
+				"buffer_size": 1629,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modinfo.lua",
+			"settings":
+			{
+				"buffer_size": 775,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "followcamera.lua",
+			"settings":
+			{
+				"buffer_size": 11475,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/lw_cameraUI/main.lua",
+			"settings":
+			{
+				"buffer_size": 5667,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/lw_cameraUI/util.lua",
+			"settings":
+			{
+				"buffer_size": 3821,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/lw_cameraUI/submenus/height.lua",
+			"settings":
+			{
+				"buffer_size": 3887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sky.lua",
+			"settings":
+			{
+				"buffer_size": 3520,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"matre",
+				"Material Theme: Activate theme"
+			],
+			[
+				"",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/_cameras",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI"
+	],
+	"file_history":
+	[
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/target.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/height.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/rgb.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/move.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/_cameras/followcamera.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/sky.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/colourpicker.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/images/lw_cameraUI.xml",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/hotupdate.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/util.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/rotate.lua",
+		"/Users/mac/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/4de3cb4e73d9f1ab9528a6594c3ae50b/Message/MessageTemp/5ad01bfae29ea333048ef46ad6e729c4/File/NN269/train.pos",
+		"/Users/mac/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/4de3cb4e73d9f1ab9528a6594c3ae50b/Message/MessageTemp/5ad01bfae29ea333048ef46ad6e729c4/File/NN269/splice.test-real.D",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/submenus/pitch.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/unit.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_cameraUI/bar.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/mouse.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_mod_camera.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/scripts/lw_rgb.lua",
+		"/Users/mac/Desktop/python/ktex库/DontStarveTexture/atlas-0.png",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/sky.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!/modinfo.lua",
+		"/Users/mac/Documents/Klei/DoNotStarve/log.txt",
+		"/Users/mac/Desktop/log.txt",
+		"/Users/mac/Desktop/log",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/ui.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/white_bone.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/wb_sanity.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/id.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/monkey_king.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/skinutil.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/mk_dynamicmusic.lua",
+		"/Users/mac/.ssh/known_hosts",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/stategraphs/SGwhite_bone_ghost.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/wb_weapons.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/mk_cloud.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modmain.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/component.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/actions.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/myth_weaponreticule.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/wb_fog.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/mk_cloudfxspawner.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/fn.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/widgets/white_bone_fogover.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/whiteboneAPI.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/sg.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/mk_jgb.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/wb_items.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/gourd.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/wb_staff.lua",
+		"/Users/mac/Downloads/html/mk.html",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/modimport/playerID.lua",
+		"/Users/mac/Desktop/myweb/demo/db/data.json",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/skindata.json",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/yamaraja_boss.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/components/wb_bonehealer.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/nz_wheel.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/nz_ring.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/armors_nz.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/nz_lance.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/mods/mythwords/scripts/prefabs/mk_foods.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/modindex.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/constants.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/leader.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/spellcaster.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/fuel.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/components/leader.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/components/builder.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/components/combat.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/transparentonsanity.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/globalcolourmodifier.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabs/scienceprototyper.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/entityscript.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/stategraph.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/recipe.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabutil.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/locomotor.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/prefabs/coontail.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/recipes.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/data/databundles/DST/widgets/uianimbutton.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/widgets/statusdisplays.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/components/moisture.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/constants.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/widgets/statusdisplays.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/sanity.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/lootdropper.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/lootdropper.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/behaviours/wander.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/data/databundles/DST/stategraphs/SGwilson.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/stategraphs/SGwilson.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/entityscript.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/components/health.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/inventoryitem.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/blowinwind.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/inventory.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/stategraphs/SGwilson.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/locomotor.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/stategraphs/commonstates.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/entityscript.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabs/flint.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/cane.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/tuning.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/eater.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/prefabs/meats.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/stategraphs/SGtentacle.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/wx78.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/mysterymeat.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabs/froglegs.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/froglegs.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/houndbone.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/houndmound.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/smashingpot.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/roe_fish.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/meats.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/fish_med.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/fish.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0003/scripts/prefabs/eel.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabs/wx78.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/components/edible.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/tigersharker.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/bufferedaction.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/prefabs/tigershark.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/prefabs/eyeplant.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/stategraphs/SGwilson.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/stategraphs/SGdeerclops.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/brains/spiderbrain.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/data/databundles/DST/tuning.lua",
+		"/Users/mac/Library/Application Support/Steam/steamapps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0002/scripts/components/playercontroller.lua"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 179.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_space",
+			"on_set_new",
+			"Move",
+			"SetHAlign",
+			":Delta",
+			"delta",
+			"Delta",
+			"zoom",
+			"distancetarg",
+			"disttarg",
+			"distancetarget",
+			"should_push_down",
+			"distancetarget",
+			"distanceta",
+			"print",
+			"maxdis",
+			"clamp",
+			"setdis",
+			"UIFONT",
+			"lw_keys",
+			"lw_mouse_handle",
+			"lw_key_handler",
+			"setde",
+			"paused",
+			"Paused",
+			"paused",
+			"cuts",
+			"_curpitch",
+			"setdis",
+			"move",
+			"云层",
+			"plays",
+			"play",
+			"GetMouseOffset",
+			"C.",
+			"_curdir",
+			"lerp",
+			"remap",
+			"rema",
+			"onsel",
+			"GetDragScale",
+			"sector",
+			"f",
+			"rgb",
+			"playsoun",
+			"mouse",
+			"p",
+			"targetoffset",
+			"reset",
+			"_curdir_num",
+			"Apply",
+			"headin",
+			"move",
+			"_draging",
+			"hot update",
+			"format",
+			"getnum",
+			"GetDisplayedValue",
+			"utilfn",
+			"ThePlayer",
+			"unit",
+			"Unit",
+			"require"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/mac/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/Camera!"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "modmain.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "modinfo.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "followcamera.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11211,
+								11219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/lw_cameraUI/main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4080,
+								4042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 357.0,
+						"translation.y": 2320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/lw_cameraUI/util.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/lw_cameraUI/submenus/height.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3029,
+								3029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sky.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 77.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/User/MyLua.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"modm",
+				"modmain.lua"
+			],
+			[
+				"heigh",
+				"scripts/lw_cameraUI/submenus/height.lua"
+			],
+			[
+				"rgb",
+				"rgb.lua"
+			],
+			[
+				"main",
+				"scripts/lw_cameraUI/main.lua"
+			],
+			[
+				"fol",
+				"scripts/_cameras/followcamera.lua"
+			],
+			[
+				"camralua",
+				"followcamera.lua"
+			],
+			[
+				"mov",
+				"scripts/lw_cameraUI/submenus/move.lua"
+			],
+			[
+				"lw_cameraUI",
+				"images/lw_cameraUI.xml"
+			],
+			[
+				"hou",
+				"hotupdate.lua"
+			],
+			[
+				"util",
+				"scripts/lw_cameraUI/util.lua"
+			],
+			[
+				"modinf",
+				"modinfo.lua"
+			],
+			[
+				"rota",
+				"scripts/lw_cameraUI/submenus/rotate.lua"
+			],
+			[
+				"hi",
+				"scripts/lw_cameraUI/submenus/height.lua"
+			],
+			[
+				"sk",
+				"scripts/lw_cameraUI/submenus/sky.lua"
+			],
+			[
+				"rot",
+				"scripts/lw_cameraUI/submenus/rotate.lua"
+			],
+			[
+				"uniu",
+				"scripts/lw_cameraUI/unit.lua"
+			],
+			[
+				"bar",
+				"scripts/lw_cameraUI/bar.lua"
+			],
+			[
+				"move",
+				"scripts/lw_cameraUI/submenus/move.lua"
+			],
+			[
+				"colourp",
+				"scripts/lw_cameraUI/colourpicker.lua"
+			],
+			[
+				"sky",
+				"scripts/lw_cameraUI/submenus/sky.lua"
+			],
+			[
+				"pitch",
+				"scripts/lw_cameraUI/submenus/pitch.lua"
+			],
+			[
+				"ba",
+				"scripts/lw_cameraUI/bar.lua"
+			],
+			[
+				"uti",
+				"scripts/lw_cameraUI/util.lua"
+			],
+			[
+				"uni",
+				"scripts/lw_cameraUI/unit.lua"
+			],
+			[
+				"mouse",
+				"mouse.lua"
+			],
+			[
+				"lwrgb",
+				"scripts/lw_rgb.lua"
+			],
+			[
+				"colo",
+				"scripts/lw_cameraUI/colourpicker.lua"
+			],
+			[
+				"moinfo",
+				"modinfo.lua"
+			],
+			[
+				"modin",
+				"modinfo.lua"
+			],
+			[
+				"whibonlua",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"wbspa",
+				"scripts/components/wb_spawner.lua"
+			],
+			[
+				"ui",
+				"modimport/ui.lua"
+			],
+			[
+				"modfi",
+				"modinfo.lua"
+			],
+			[
+				"whiap",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"whib",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"monkkinlua",
+				"scripts/prefabs/monkey_king.lua"
+			],
+			[
+				"skinda",
+				"skindata.json"
+			],
+			[
+				"wbitem",
+				"scripts/prefabs/wb_items.lua"
+			],
+			[
+				"wbsan",
+				"scripts/components/wb_sanity.lua"
+			],
+			[
+				"monkilua",
+				"scripts/prefabs/monkey_king.lua"
+			],
+			[
+				"whiapi",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"kiut",
+				"modimport/skinutil.lua"
+			],
+			[
+				"dynam",
+				"scripts/components/mk_dynamicmusic.lua"
+			],
+			[
+				"id",
+				"modimport/id.lua"
+			],
+			[
+				"piski",
+				"modimport/pickskinui.lua"
+			],
+			[
+				"skinu",
+				"modimport/skinutil.lua"
+			],
+			[
+				"pisck",
+				"modimport/pickskinui.lua"
+			],
+			[
+				"skiu",
+				"modimport/skinutil.lua"
+			],
+			[
+				"wgho",
+				"scripts/stategraphs/SGwhite_bone_ghost.lua"
+			],
+			[
+				"bonelua",
+				"scripts/components/wb_bone.lua"
+			],
+			[
+				"sgwbg",
+				"scripts/stategraphs/SGwhite_bone_ghost.lua"
+			],
+			[
+				"whilua",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"wbite",
+				"scripts/prefabs/wb_items.lua"
+			],
+			[
+				"mkclspa",
+				"scripts/components/mk_cloudfxspawner.lua"
+			],
+			[
+				"mk_clo",
+				"scripts/prefabs/mk_cloud.lua"
+			],
+			[
+				"whibone",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"wbfog",
+				"scripts/components/wb_fog.lua"
+			],
+			[
+				"api",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"ac",
+				"modimport/actions.lua"
+			],
+			[
+				"compo",
+				"modimport/component.lua"
+			],
+			[
+				"action",
+				"modimport/actions.lua"
+			],
+			[
+				"fog",
+				"scripts/components/wb_fog.lua"
+			],
+			[
+				"clofxa",
+				"scripts/components/mk_cloudfxspawner.lua"
+			],
+			[
+				"whibo",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"mkco",
+				"scripts/prefabs/mk_cloud.lua"
+			],
+			[
+				"sg",
+				"modimport/sg.lua"
+			],
+			[
+				"mywea",
+				"scripts/components/myth_weaponreticule.lua"
+			],
+			[
+				"mkjgb",
+				"scripts/prefabs/mk_jgb.lua"
+			],
+			[
+				"mywere",
+				"scripts/components/myth_weaponreticule.lua"
+			],
+			[
+				"acio",
+				"modimport/actions.lua"
+			],
+			[
+				"whibolua",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"whiboanp",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"weapo",
+				"scripts/prefabs/wb_weapons.lua"
+			],
+			[
+				"whiboapi",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"whibola",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"weap",
+				"scripts/prefabs/wb_weapons.lua"
+			],
+			[
+				"gou",
+				"scripts/prefabs/gourd.lua"
+			],
+			[
+				"gour",
+				"scripts/prefabs/gourd.lua"
+			],
+			[
+				"gura",
+				"scripts/prefabs/gourd.lua"
+			],
+			[
+				"actio",
+				"modimport/actions.lua"
+			],
+			[
+				"monglu",
+				"scripts/prefabs/monkey_king.lua"
+			],
+			[
+				"whi",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"monkinlua",
+				"scripts/prefabs/monkey_king.lua"
+			],
+			[
+				"skui",
+				"modimport/skinutil.lua"
+			],
+			[
+				"jso",
+				"skindata.json"
+			],
+			[
+				"json",
+				"skindata.json"
+			],
+			[
+				"mom",
+				"modmain.lua"
+			],
+			[
+				"yamalua",
+				"scripts/prefabs/yamaraja_boss.lua"
+			],
+			[
+				"fn",
+				"modimport/fn.lua"
+			],
+			[
+				"wbbonhe",
+				"scripts/components/wb_bonehealer.lua"
+			],
+			[
+				"wpai",
+				"modimport/whiteboneAPI.lua"
+			],
+			[
+				"whitblua",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"whibonelua",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"sani",
+				"scripts/components/wb_sanity.lua"
+			],
+			[
+				"wbstaff",
+				"scripts/prefabs/wb_staff.lua"
+			],
+			[
+				"actions",
+				"modimport/actions.lua"
+			],
+			[
+				"whibolu",
+				"scripts/prefabs/white_bone.lua"
+			],
+			[
+				"wbwe",
+				"scripts/prefabs/wb_weapons.lua"
+			],
+			[
+				"wbsta",
+				"scripts/prefabs/wb_staff.lua"
+			],
+			[
+				"items",
+				"scripts/prefabs/wb_items.lua"
+			],
+			[
+				"nzwhlua",
+				"scripts/prefabs/nz_wheel.lua"
+			],
+			[
+				"nzrlua",
+				"scripts/prefabs/nz_ring.lua"
+			],
+			[
+				"arnz",
+				"scripts/prefabs/armors_nz.lua"
+			],
+			[
+				"nzlanlua",
+				"scripts/prefabs/nz_lance.lua"
+			],
+			[
+				"mkjgbla",
+				"scripts/prefabs/mk_jgb.lua"
+			],
+			[
+				"monkinla",
+				"scripts/prefabs/monkey_king.lua"
+			],
+			[
+				"food",
+				"scripts/prefabs/mk_foods.lua"
+			],
+			[
+				"modinde",
+				"scripts/modindex.lua"
+			],
+			[
+				"entt",
+				"DLC0003/scripts/entityscript.lua"
+			],
+			[
+				"tunin",
+				"DLC0001/scripts/tuning.lua"
+			],
+			[
+				"constan",
+				"DLC0003/scripts/constants.lua"
+			],
+			[
+				"SKELETON",
+				"DLC0003/scripts/prefabs/skeleton.lua"
+			],
+			[
+				"follower",
+				"scripts/components/follower.lua"
+			],
+			[
+				"spellcas",
+				"scripts/components/spellcaster.lua"
+			],
+			[
+				"leader",
+				"DLC0002/scripts/components/leader.lua"
+			],
+			[
+				"edible",
+				"scripts/components/edible.lua"
+			],
+			[
+				"fuel",
+				"scripts/components/fuel.lua"
+			],
+			[
+				"folloer",
+				"scripts/components/follower.lua"
+			],
+			[
+				"skle",
+				"DLC0003/scripts/prefabs/skeleton.lua"
+			],
+			[
+				"wagstaf",
+				"scripts/prefabs/wagstaff.lua"
+			],
+			[
+				"projec",
+				"DLC0002/scripts/components/projectile.lua"
+			],
+			[
+				"builder",
+				"DLC0003/scripts/components/builder.lua"
+			],
+			[
+				"combat",
+				"DLC0003/scripts/components/combat.lua"
+			],
+			[
+				"inventoy",
+				"DLC0003/scripts/components/inventory.lua"
+			],
+			[
+				"comabt",
+				"DLC0003/scripts/components/combat.lua"
+			],
+			[
+				"entit",
+				"scripts/entityscript.lua"
+			],
+			[
+				"transp",
+				"scripts/components/transparentonsanity.lua"
+			],
+			[
+				"wagstafflua",
+				"scripts/prefabs/wagstaff.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 574.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

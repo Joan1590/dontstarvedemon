@@ -1,0 +1,9 @@
+<Atlas>
+  <Texture filename="slots.tex" />
+  <Elements>
+    <Element name="craft_slot.tex" u1="0" u2="0.192382813" v1="0" v2="1" />
+    <Element name="craft_slot_missing_mats.tex" u1="0.192382813" u2="0.384765626" v1="0" v2="1" />
+    <Element name="craft_slot_locked_nextlevel.tex" u1="0.384765626" u2="0.577148439" v1="0" v2="1" />
+    <Element name="craft_slot_locked.tex" u1="0.577148439" u2="0.769531252" v1="0" v2="1" />
+  </Elements>
+</Atlas>

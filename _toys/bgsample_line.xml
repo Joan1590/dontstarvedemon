@@ -1,0 +1,7 @@
+<Atlas>
+<Texture filename="bgsample_line.tex" />
+<Elements>
+<Element name="bgimage" u1="0" u2="1" v1="0.4375" v2="1" />
+<Element name="icon" u1="0" u2="0.15625" v1="0.28125" v2="0.4375" />
+</Elements>
+</Atlas>

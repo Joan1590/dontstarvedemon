@@ -1,0 +1,11 @@
+<Atlas>
+	<Texture filename="favrecipesinventoryimages.tex" />
+	<Elements>
+		<Element name="critterden.tex" u1="0.0" u2="0.25" v1="1.0" v2="0.5" />
+		<Element name="hermitcrab_icon.tex" u1="0.25" u2="0.5" v1="1.0" v2="0.5" />
+		<Element name="moonaltar.tex" u1="0.5" u2="0.75" v1="1.0" v2="0.5" />
+		<Element name="ruinsaltar.tex" u1="0.75" u2="1.0" v1="1.0" v2="0.5" />
+		<Element name="sculptingtable_lost.tex" u1="0.0" u2="0.25" v1="0.5" v2="0.0" />
+		<Element name="tacklestation_lost.tex" u1="0.25" u2="0.5" v1="0.5" v2="0.0" />
+	</Elements>
+</Atlas>

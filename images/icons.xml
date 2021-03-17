@@ -1,0 +1,9 @@
+<Atlas>
+  <Texture filename="icons.tex" />
+  <Elements>
+    <Element name="checkmark.tex" u1="0"           u2="0.251953125" v1="0" v2="1" />
+    <Element name="arrow.tex"     u1="0.251953125" u2="0.501953125" v1="0" v2="1" />
+    <Element name="rocks.tex"     u1="0.501953125" u2="0.751953125" v1="0" v2="1" />
+    <Element name="lightbulb.tex" u1="0.751953125" u2="1"           v1="0" v2="1" />
+  </Elements>
+</Atlas>
