@@ -366,7 +366,7 @@ local GeometricOptionsScreen = Class(Screen, function(self, modname, colorname_v
 		toggle_strings[true], false, false,
 		function()
 			toggle_state = not toggle_state
-			self.toggle_button.text:SetString(toggle_state and "开启" or "关闭")
+			self.toggle_button.text:SetString(toggle_state and "Enabled" or "关闭")
 			self.toggle_button.image:SetTint(toggle_state and .5 or 1, toggle_state and 1 or .5, .5, 1)
 			self.toggle_button.hovertext:SetString(toggle_strings[toggle_state])
 			self.callbacks.toggle(toggle_state)

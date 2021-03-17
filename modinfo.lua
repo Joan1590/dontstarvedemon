@@ -138,8 +138,8 @@ for i = 1, 21 do
 end
 
 local bool_opt = {
-	{ description = "开启", data = true },
-	{ description = "禁用", data = false },
+	{ description = "Enabled", data = true },
+	{ description = "Disabled", data = false },
 }
 
 local kuaijiezhizuol = {
@@ -179,7 +179,7 @@ local kuaijiezhizuol = {
 	{ description = "TILDE", data = "TILDE" },
 }
 local keys_opt = {
-	{ description = "禁用", data = 0 },
+	{ description = "Disabled", data = 0 },
 	{ description = "A", data = 97 },
 	{ description = "B", data = 98 },
 	{ description = "C", data = 99 },
@@ -319,7 +319,7 @@ for i = 1, #colours do
 	colour_opt[i] = { description = colours[i], data = i }
 end
 
-local boolean = { { description = "启用", data = true }, { description = "禁用", data = false } }
+local boolean = { { description = "Enabled", data = true }, { description = "Disabled", data = false } }
 
 local string = ""
 local keys = {
@@ -399,9 +399,9 @@ for i = 1, #keys do
 	keylist[i] = { description = keys[i], data = "KEY_" .. string.upper(keys[i]) }
 	keylist_2[i] = { description = keys[i], data = "KEY_" .. string.upper(keys[i]) }
 end
-keylist[#keylist + 1] = { description = "禁用", data = false }
+keylist[#keylist + 1] = { description = "Disabled", data = false }
 keylist_2[#keylist_2 + 1] = { description = "没有切换按键", data = "no_toggle_key" }
-keylist_2[#keylist_2 + 1] = { description = "禁用", data = false }
+keylist_2[#keylist_2 + 1] = { description = "Disabled", data = false }
 
 local eight_options = {
 	-- Default emotes
@@ -466,30 +466,30 @@ end
 percent_options[11] = { description = "Unlimited", data = false }
 
 local placer_color_options = {
-	{ description = "绿色", data = "green", hover = "游戏使用的普通绿色。" },
-	{ description = "蓝色", data = "blue", hover = "蓝色，如果你是红/绿色盲的话很有用." },
-	{ description = "红色", data = "red", hover = "游戏使用的普通红色。" },
-	{ description = "白色", data = "white", hover = "明亮的白色，为了更好的能见度。" },
-	{ description = "黑色", data = "black", hover = "黑色，与明亮的颜色形成对比" },
+	{ description = "green", data = "green", hover = "Normal green used in the game." },
+	{ description = "blue", data = "blue", hover = "Blue, useful if you are red/green blind." },
+	{ description = "red", data = "red", hover = "The ordinary red used in the game." },
+	{ description = "white", data = "white", hover = "Bright white, for better visibility." },
+	{ description = "black", data = "black", hover = "Black, in contrast to bright colors" },
 }
 local color_options = {}
 for i = 1, #placer_color_options do
 	color_options[i] = placer_color_options[i]
 end
 color_options[#color_options + 1] = {
-	description = "白色轮廓",
+	description = "White outline",
 	data = "whiteoutline",
-	hover = "白色带黑色轮廓，以获得最佳可见性。",
+	hover = "White with black outline for best visibility.",
 }
 color_options[#color_options + 1] = {
-	description = "黑色轮廓",
+	description = "Black outline",
 	data = "blackoutline",
-	hover = "黑色加白色轮廓，以获得最佳可见性。",
+	hover = "Black plus white outline for best visibility.",
 }
 local hidden_option = {
-	description = "隐藏",
+	description = "Hide",
 	data = "hidden",
-	hover = "把它完全藏起来，因为你根本不需要看到它，对吧？",
+	hover = "Hide it completely, because you don't need to see it at all, right?",
 }
 placer_color_options[#placer_color_options + 1] = hidden_option
 color_options[#color_options + 1] = hidden_option
@@ -517,20 +517,20 @@ end
 local function AddConfig(label, name, options, default, hover)
 	return { label = label, name = name, options = options, default = default, hover = hover or "" }
 end
-local chaoqiangjiyi = { { description = "启用", data = true }, { description = "禁用", data = false } }
+local chaoqiangjiyi = { { description = "Enabled", data = true }, { description = "Disabled", data = false } }
 ----仇恨显示
 local colour2 = { --------颜色表
-	{ description = "红色", data = 1 },
-	{ description = "绿色", data = 2 },
-	{ description = "深绿色", data = 3 },
-	{ description = "蓝色", data = 4 },
-	{ description = "浅蓝色", data = 5 },
-	{ description = "橙色", data = 6 },
-	{ description = "橘子色", data = 7 },
-	{ description = "黄色", data = 8 },
-	{ description = "紫色", data = 9 },
-	{ description = "粉红色", data = 10 },
-	{ description = "灰色", data = 11 },
+	{ description = "red", data = 1 },
+	{ description = "green", data = 2 },
+	{ description = "dark green", data = 3 },
+	{ description = "blue", data = 4 },
+	{ description = "light blue", data = 5 },
+	{ description = "orange", data = 6 },
+	{ description = "orange red", data = 7 },
+	{ description = "yellow", data = 8 },
+	{ description = "Purple", data = 9 },
+	{ description = "pink", data = 10 },
+	{ description = "grey", data = 11 },
 --将数据作为数字处理，因为将数据作为表格处理会使选项和字符串变得枯燥乏味。.
 }
 
@@ -548,29 +548,29 @@ local colour = { --一张桌子，这样更容易记录颜色。
 	["gray"] = 11,
 }
 local colors = {
-	{ data = 0, description = "标准 " },
-	{ data = 1, description = "黄金" },
-	{ data = 2, description = "白色" },
-	{ data = 3, description = "红色" },
-	{ data = 4, description = "绿色" },
-	{ data = 5, description = "蓝色" },
-	{ data = 6, description = "黄色" },
-	{ data = 7, description = "洋红" },
-	{ data = 8, description = "青色" },
-	{ data = 9, description = "灰色" },
+	{ data = 0, description = "standard" },
+	{ data = 1, description = "Golden" },
+	{ data = 2, description = "white" },
+	{ data = 3, description = "red" },
+	{ data = 4, description = "green" },
+	{ data = 5, description = "blue" },
+	{ data = 6, description = "yellow" },
+	{ data = 7, description = "magenta" },
+	{ data = 8, description = "cyan" },
+	{ data = 9, description = "grey" },
 }
 
 local colorlist = {
-	{ description = "白色", data = "WHITE" },
-	{ description = "红色", data = "FIREBRICK" },
-	{ description = "橙色", data = "TAN" },
-	{ description = "黄色", data = "LIGHTGOLD" },
-	{ description = "绿色", data = "GREEN" },
-	{ description = "青色", data = "TEAL" },
-	{ description = "蓝色", data = "OTHERBLUE" },
-	{ description = "紫色", data = "DARKPLUM" },
-	{ description = "粉红色", data = "ROSYBROWN" },
-	{ description = "黄金色", data = "GOLDENROD" },
+	{ description = "White", data = "WHITE" },
+	{ description = "Red", data = "FIREBRICK" },
+	{ description = "Orange", data = "TAN" },
+	{ description = "Yellow", data = "LIGHTGOLD" },
+	{ description = "Green", data = "GREEN" },
+	{ description = "Cyan", data = "TEAL" },
+	{ description = "Blue", data = "OTHERBLUE" },
+	{ description = "Purple", data = "DARKPLUM" },
+	{ description = "Pink", data = "ROSYBROWN" },
+	{ description = "Golden", data = "GOLDENROD" },
 }
 
 local numberoptions = {}
@@ -584,10 +584,10 @@ for i = 0, 5 do
 	numberoptionssmall[i + 1] = { description = space .. i .. "", data = i }
 end
 local booleanoptions = {
-	{ data = false, description = "禁用" },
-	{ data = true, description = "启用" },
+	{ data = false, description = "Disabled" },
+	{ data = true, description = "Enabled" },
 }
-local delims = { { data = false, description = "禁用" } }
+local delims = { { data = false, description = "Disabled" } }
 local symbols = {
 	"`",
 	"~",
@@ -658,162 +658,162 @@ end
 configuration_options = {
 	{
 		name = "避雷针",
-		label = "基础功能开启",
+		label = "Basic functions open",
 		hover = " ",
-		options = { { description = "", data = true } }, 
+		options = { { description = "", data = true } },
 		default = true,
 
 	},
 	{
 		name = "仇恨与跟随目标显示",
-		label = "开启仇恨与跟随目标显示",
-		hover = "是否开启显示仇恨",
+		label = "Enable the display of hatred and follow target",
+		hover = "Whether to turn on the display of hatred",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "攻击技能间隔显示",
-		label = "攻击技能间隔显示",
-		hover = "是否开启技能间隔倒计时",
+		label = "Attack skill interval display",
+		hover = "Whether to enable skill interval countdown",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "显示攻击范围",
-		label = "究极范围显示",
-		hover = "开启范围显示，自动搜寻脚印 小惊吓礼物，各种物品范围光环提醒",
+		label = "Ultimate range display",
+		hover = "Open range display, automatically search for footprints, small scare gifts, halo reminders of various items range",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "显示鸟范围",
-		label = "[范围显示是否显示鸟的范围？]",
-		hover = "开启后鸟也有范围",
+		label = "[Does the range display show the range of the bird?]",
+		hover = "Birds also have scope after opening",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "袭击警示",
-		label = "袭击警示",
-		hover = "开启后在猎狗来袭，boss来袭后，会以各种方式告知你",
+		label = "Assault warning",
+		hover = "When the hover strikes after it is turned on, after the boss strikes, it will inform you in various ways",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "显示人物攻击范围",
-		label = "人物攻击范围显示",
-		hover = "人物攻击范围，在白圈是你的最大攻击目标仇恨，红圈是打出的攻击判定",
+		label = "Character attack range display",
+		hover = "Character's attack range, in the white circle is your biggest attack target hatred, and the red circle is the attack judgment.",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "自动填充燃料",
-		label = "自动填充燃料",
-		hover = "自动填充魔光，提灯，头灯，骨甲以及鼹鼠帽的燃料，并且保护它们耐久为2%的时候脱落",
+		label = "Automatically fill fuel",
+		hover = "Automatically fills the fuel of magic light, lantern, headlight, bone armor and mole hat, and protects them from falling off when the durability is 2%",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "夜视全图滤镜处理",
-		label = "夜视滤镜",
-		hover = "按键夜视，全图，消除月岛、脑残滤镜、OB视角",
+		label = "Night Vision Filter",
+		hover = "Button night vision, full picture, eliminate moon island, brain damage filter, OB angle of view",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "夜视全图滤镜处理2",
-		label = "OB视角",
-		hover = "OB视角是否开启",
+		label = "OB perspective",
+		hover = "Whether the OB perspective is turned on",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "操作提升",
-		label = "操作提升",
-		hover = "全面操作优化带给你更好的体验，相信我，你肯定会打开",
+		label = "Operation promotion",
+		hover = "Comprehensive operation optimization brings you a better experience, trust me, you will definitely open it",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "输入优化",
-		label = "输入优化",
-		hover = "全面输入优化带给你更好的体验，相信我，你肯定会打开",
+		label = "Input Optimization",
+		hover = "Comprehensive input optimization brings you a better experience, trust me, you will definitely open it",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "超高数据显示",
-		label = "超高数据显示",
-		hover = "显示四季时钟，季节温度，机器人充能，洞穴暴动，与三围显示",
+		label = "Super high data display",
+		hover = "Display the four seasons clock, seasonal temperature, robot charging, cave riots, and measurement display",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "快捷制作栏",
-		label = "快捷制作栏",
-		hover = "收藏你经常做的物品然后长按ALT弹出快捷制作栏",
+		label = "Quick Production Bar",
+		hover = "Collect the items you often make and press and hold ALT to pop up the quick creation bar",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "自动走A",
-		label = "自动走A",
-		hover = "平A取消后摇并且自动攻击",
+		label = "Automatically walk A",
+		hover = "Ping A is cancelled and then shake and attack automatically",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
@@ -832,8 +832,8 @@ configuration_options = {
 
 	{
 		name = "是否打鸟",
-		label = "是否打鸟",
-		hover = "无法使用强制攻击打鸟",
+		label = "Whether to hit the birds",
+		hover = "Cannot use force attack to hit birds",
 		options = {
 			{ description = "禁止打鸟", data = true },
 			{ description = "不禁止打鸟", data = false },
@@ -844,294 +844,294 @@ configuration_options = {
 
 	{
 		name = "111111",
-		label = "额外功能",
+		label = "Extra Features",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "更多图标",
-		label = "更多图标",
-		hover = "在游戏的地图上，显示更多图标。但是却会让很多生物失去声音,bug吓人",
+		label = "More icons",
+		hover = "On the map of the game, more icons are displayed. But it will make many creatures lose their sound, and the bugs are scary",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "名称显示",
-		label = "名称显示",
-		hover = "在游戏中显示玩家昵称",
+		label = "Name display",
+		hover = "Display the player's nickname in the game",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "智能锅",
-		label = "智能锅",
-		hover = "在游戏中显示锅子的配方",
+		label = "Smart Pot",
+		hover = "Display the recipe of the pot in the game",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "快捷宣告",
-		label = "快捷宣告",
-		hover = "在游戏中开启快捷宣告功能",
+		label = "Quick Announcement",
+		hover = "Turn on the quick announcement function in the play",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "G键表情",
-		label = "快捷表情",
-		hover = "在游戏中开启快捷表情功能",
+		label = "Quick emoji",
+		hover = "Open the shortcut emoji function in the game",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "物品信息",
-		label = "物品信息",
-		hover = "在游戏中开启物品信息显示功能",
+		label = "Item Information",
+		hover = "Turn on the item information display function in the game",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "几何布局",
-		label = "几何布局",
-		hover = "客户端所实现的几何建筑",
+		label = "Geometric Layout",
+		hover = "Geometric buildings realized by the client",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "装备固定",
-		label = "装备固定",
-		hover = "一个简单装备固定系统",
+		label = "Fixed equipment",
+		hover = "A simple equipment fixing system",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "黑化排队论",
-		label = "黑化排队论",
-		hover = "客户端上的黑化排队论",
+		label = "Blackened Queue Theory",
+		hover = "Blackened queuing theory on the client",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "自动钓鱼",
-		label = "自动钓鱼",
-		hover = "一个简单的自动钓鱼和钓海鱼",
+		label = "Automatic fishing",
+		hover = "A simple automatic fishing and fishing for sea fish",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "钓鱼按键",
-		label = "自动钓鱼按键",
-		hover = "默认F5启动钓鱼",
+		label = "Automatic fishing button",
+		hover = "F5 starts fishing by default",
 		options = keys_opt,
 		default = 286,
 
 	},
 	{
 		name = "自动海钓",
-		label = "自动海钓",
-		hover = "一个简单的海钓系统，可能在钓鱼过程切换鱼饵会炸",
+		label = "Automatic sea fishing",
+		hover = "A simple sea fishing system, it may explode if you switch the bait during fishing",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "自动烹饪",
-		label = "自动烹饪",
-		hover = "一个简单烹饪系统按F8",
+		label = "Automatic cooking",
+		hover = "A simple cooking system press F8",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "111111",
-		label = "实验功能",
+		label = "Experimental Features",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 
 	{
 		name = "游戏中模组设置",
-		label = "游戏内模组开关功能",
-		hover = "在游戏中按下小键盘上的7可开启或者关闭客户端模组",
+		label = "In-game module switch function",
+		hover = "Press 7 on the small keyboard in the game to open or close the client module",
 		options = {
-			{ description = "开启-与熔炉冲突！", data = true },
-			{ description = "禁用", data = false },
+			{ description = "On-conflict with the furnace!", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "幽灵玩家",
-		label = "幽灵玩家",
-		hover = "记入你最后看到那个玩家是在什么地点什么时候它叫什么名字",
+		label = "Ghost Player",
+		hover = "Record where and when the player you last saw was what its name was",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "坐标系统",
-		label = "坐标系统",
-		hover = "在游戏中开启强大的坐标系统，可分享坐标，可是仅用于开启本模组的玩家",
+		label = "Coordinate System",
+		hover = "Open a powerful coordinate system in the game, you can share coordinates, but only for players who open this module",
 		options = {
 			{
-				description = "开启",
+				description = "Enabled",
 				data = true,
-				hover = "如果你跟朋友都开了这个功能，那就可以直接定位一个坐标让他走过去了",
+				hover = "If you and your friend have enabled this function, you can directly locate a coordinate to let him walk over",
 			},
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "农场辅助",
-		label = "农场辅助",
-		hover = "在游戏中开启强大的农场辅助，可以显示各种各样的植物营养,直接显示种子名字等",
+		label = "Farm Assist",
+		hover = "Enable powerful farm assistance in the game, which can display a variety of plant nutrition, directly display seed names, etc.",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "禁声系统",
-		label = "禁声系统",
-		hover = "一个简单的禁声系统",
+		label = "Sound Silence System",
+		hover = "A simple silence system",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "1111656565656111",
-		label = "高亮辅助",
+		label = "Highlight Auxiliary",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "高亮显示",
-		label = "高亮显示",
-		hover = "让一些生物高亮显示！配合范围辅助更清楚哦",
+		label = "Highlight",
+		hover = "Let some creatures be highlighted! It's clearer with the range assist",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "光照模式",
-		label = "高亮显示:直接发光",
-		hover = "直接给那些生物一个灯光，让你看的清楚无比",
+		label = "Highlight: Direct light",
+		hover = "Give those creatures a light directly, so you can see clearly",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "1111111",
-		label = "地图系统",
+		label = "Map System",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "微型地图",
-		label = "微型地图",
-		hover = "在游戏中添加一个随心所欲控制的小地图UI",
+		label = "Mini Map",
+		hover = "Add a small map UI that you want to control in the game",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "锁定地图",
-		label = "锁定地图",
-		hover = "在游戏中锁定大地图方向",
+		label = "Lock the map",
+		hover = "Lock the direction of the big map in the game",
 		options = {
-			{ description = "开启--可能会让你眩晕", data = true },
-			{ description = "禁用", data = false },
+			{ description = "On--may make you dizzy", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "透明地图",
-		label = "透明地图",
-		hover = "一个简单的透明地图",
+		label = "Transparent Map",
+		hover = "A simple transparent map",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "map_alpha",
-		label = "透明地图设置",
+		label = "Transparent map settings",
 		options = {
 			{ description = "10%", data = 0.9 },
 			{ description = "20%", data = 0.8 },
@@ -1147,119 +1147,123 @@ configuration_options = {
 	},
 	{
 		name = "1111112221",
-		label = "制作栏优化",
+		label = "Production column optimization",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "加宽制作栏",
-		label = "加宽制作栏",
-		hover = "让制作栏位加宽",
+		label = "Wide the production column",
+		hover = "Make the production field wider",
 		options = {
-			{ description = "开启", data = true, hover = "切换可能闪退一次" },
-			{ description = "禁用", data = false, hover = "切换可能闪退一次" },
+			{ description = "Enabled", data = true, hover = "Switching may crash once" },
+			{ description = "Disabled", data = false, hover = "Switching may crash once" },
 		},
 		default = false,
 
 	},
 	{
 		name = "制作物品美化",
-		label = "更清晰的制作栏（二选一）",
-		hover = "接近原版的美化方式，让制作的东西更清晰",
+		label = "Clearer production column (choose one)",
+		hover = "The beautification method close to the original version makes the production clearer",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
 	},
 	{
 		name = "制作物品美化2",
-		label = "色彩丰富的制作栏（二选一）",
-		hover = "让制作的物品色彩分明，解锁和不解锁和可制作的颜色都不一样",
+		label = "Colorful production column (choose one)",
+		hover = "Make the colors of the crafted items distinct, and the colors that can be crafted are different from unlocked and not unlocked",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "1111111101",
-		label = "滤镜设置",
+		label = "Filter settings",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "四季滤镜",
-		label = "四季滤镜",
-		hover = "一个比较大的滤镜系统四季都有一种独特的风格",
+		label = "Four Seasons Filter",
+		hover = "A relatively large filter system has a unique style in all seasons",
 		options = {
-			{ description = "开启", data = true, hover = "切换可能闪退一次" },
-			{ description = "禁用", data = false, hover = "切换可能闪退一次" },
+			{ description = "Enabled", data = true, hover = "Switching may crash once" },
+			{ description = "Disabled", data = false, hover = "Switching may flash back once" },
 		},
 		default = false,
 
 	},
 	{
 		name = "兼容模式",
-		label = "滤镜兼容",
-		hover = "如果你要开启其他滤镜模组，请开启兼容模式",
+		label = "Filter compatible",
+		hover = "If you want to enable other filter modules, please enable compatibility mode",
 		options = {
-			{ description = "兼容模式未开启", data = true, hover = "切换可能闪退一次" },
-			{ description = "兼容模式开启", data = false, hover = "切换可能闪退一次" },
+			{
+				description = "Compatibility mode off",
+				data = true,
+				hover = "Switching may crash once",
+			},
+			{ description = "Compatibility mode on", data = false, hover = "Switching may crash once" },
 		},
 		default = true,
 
 	},
 	{
 		name = "111111111",
-		label = "字体设置",
+		label = "Font settings",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	-- {
 	-- name = "方正喵呜",
 	-- label = "方正喵呜（二选一）",
-	-- hover = "将你的字体设置成方正喵呜体",
+	-- hover = "将你的字���设置成方正喵呜体",
 	-- options = {
-	-- {description = "开启", data = true},
-	-- {description = "禁用", data = false}
+	-- {description = "Enabled", data = true},
+	-- {description = "Disabled", data = false}
 	-- },
 	-- default = false,
 
 	-- },
 	-- {
 	-- name = "本墨悠圆",
-	-- label = "本墨悠圆（二选一）",
-	-- hover = "有点像是修仙大型网游的字体",
+	-- label = "本墨悠圆（二选���）",
+	-- hover = "有��像是修仙大型网游的字��",
 	-- options = {
-	-- {description = "开启", data = true},
-	-- {description = "禁用", data = false}
+	-- {description = "Enabled", data = true},
+	-- {description = "Disabled", data = false}
 	-- },
 	-- default = false,
 
 	-- },
 	{
 		name = "修改字体大小",
-		label = "字体大小",
-		hover = "修改字体大小",
+		label = "Font size",
+		hover = "Change font size",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 
 	},
 	{
 		name = "CHINESE_TEXT_SCALE",
-		label = "使用简体中文时的字体大小",
+		label = "使用��体中文���的字体大��",
 		options = {
 			{ description = "0.50", data = 0.50 },
 			{ description = "0.55", data = 0.55 },
@@ -1317,7 +1321,7 @@ configuration_options = {
 		name = "24254112643",
 		label = "快捷制作",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1326,8 +1330,8 @@ configuration_options = {
 		label = "快捷制作",
 		hover = "按下键位 快捷制作物品",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
@@ -1372,7 +1376,7 @@ configuration_options = {
 		name = "2425411264",
 		label = "模组功能开关END",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1380,7 +1384,7 @@ configuration_options = {
 		name = "2425411264",
 		label = "模组细节设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1528,14 +1532,14 @@ configuration_options = {
 	{
 		name = "OBC_RESET_KEY",
 		label = "在自身与最近选定的实体/位置间切换",
-		hover = "在角色和最近选定的实体/位置之间切换相机焦点的键",
+		hover = "在角色和��近选定的实体/位置之间切换��机焦点的键",
 		options = keys_opt,
 		default = 0,
 	},
 	{
 		name = "自动填充",
 		label = "自动添加燃料耐久",
-		hover = "耐久小于多少时添加一次燃料",
+		hover = "耐久��于多少时添加一次燃料",
 		options = {
 			{ description = "80%", data = 80 },
 			{ description = "60%", data = 60 },
@@ -1548,19 +1552,19 @@ configuration_options = {
 	},
 	{
 		name = "22222222265656",
-		label = "植物辅助设置",
+		label = "植物辅助设��",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "buttonregister",
-		label = "植物登记按钮",
+		label = "植物登记��钮",
 		hover = "启用HUD中的“植物登记”按钮。",
 		options = {
-			{ description = "禁用", data = false },
-			{ description = "启用", data = true },
+			{ description = "Disabled", data = false },
+			{ description = "Enabled", data = true },
 		},
 		default = true,
 	},
@@ -1576,8 +1580,8 @@ configuration_options = {
 		label = "营养视觉按钮",
 		hover = "启用HUD中的“养分视觉”按钮",
 		options = {
-			{ description = "禁用", data = false },
-			{ description = "启用", data = true },
+			{ description = "Disabled", data = false },
+			{ description = "Enabled", data = true },
 		},
 		default = true,
 	},
@@ -1630,8 +1634,12 @@ configuration_options = {
 		label = "有色作物",
 		hover = "如果它检测到某种压力源，就会改变作物的颜色。",
 		options = {
-			{ description = "禁用", data = false },
-			{ description = "启用", data = true, hover = "注意：只有在启用营养视力时才可见。" },
+			{ description = "Disabled", data = false },
+			{
+				description = "Enabled",
+				data = true,
+				hover = "注意：只有在启用营养视力时才可见。",
+			},
 		},
 		default = true,
 	},
@@ -1640,8 +1648,12 @@ configuration_options = {
 		label = "地面分析仪",
 		hover = "走在一块农田上，你会看到其中的营养和水分。",
 		options = {
-			{ description = "禁用", data = false },
-			{ description = "启用", data = true, hover = "注意：只有在启用营养视力时才可见。" },
+			{ description = "Disabled", data = false },
+			{
+				description = "Enabled",
+				data = true,
+				hover = "注意：只有在启用营养视力时才可见。",
+			},
 		},
 		default = true,
 	},
@@ -1656,7 +1668,7 @@ configuration_options = {
 		name = "222222222",
 		label = "走A设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1715,7 +1727,7 @@ configuration_options = {
 		name = "萌萌呀",
 		label = "范围辅助设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1723,7 +1735,7 @@ configuration_options = {
 		name = "攻击范围显示",
 		label = "显示你的攻击范围光圈颜色",
 		hover = "设置你的显示攻击范围显示的光环的颜色",
-		options = colour2, 
+		options = colour2,
 		default = colour.red, --Red
 	},
 	{
@@ -1731,8 +1743,8 @@ configuration_options = {
 		label = "跟踪动画",
 		hover = "是否开启跟踪动画",
 		options = {
-			{ description = "禁用", data = 0 },
-			{ description = "开启", data = 1 },
+			{ description = "Disabled", data = 0 },
+			{ description = "Enabled", data = 1 },
 		},
 		default = 1,
 	},
@@ -1741,7 +1753,7 @@ configuration_options = {
 		label = "通知声音",
 		hover = "当附近的土堆出现/消失时播放声音。",
 		options = {
-			{ description = "禁用", data = 0 },
+			{ description = "Disabled", data = 0 },
 			{ description = "仅出现", data = 1 },
 			{ description = "仅消失", data = 2 },
 			{ description = "总是", data = 3 },
@@ -1766,7 +1778,7 @@ configuration_options = {
 		name = "警示语言",
 		label = "袭击提示设置",
 		hover = " ",
-		options = { { description = "", data = "chinese_s" } }, 
+		options = { { description = "", data = "chinese_s" } },
 		default = "chinese_s",
 	},
 
@@ -1799,7 +1811,7 @@ configuration_options = {
 			{
 				description = "全部启用：所有人",
 				data = "qvanbuqiyong",
-				hover = "袭击提示将会以各种方式通知你：所有人可见",
+				hover = "袭击提示将会以各种方式通���你：���有人可见",
 			},
 		},
 		default = "qvanbuqiyong",
@@ -1807,44 +1819,44 @@ configuration_options = {
 
 	{
 		name = "deerclops_warning",
-		hover = "玩家会在巨鹿每次吼叫的同时说:巨鹿将在...秒后到来",
-		label = "提示巨鹿",
+		hover = "玩家会在巨鹿每次吼叫的同时说:巨鹿将在...秒后到����",
+		label = "提示��鹿",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "���闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
 
 	{
 		name = "bearger_warning",
-		hover = "玩家会在熊獾每次吼叫的同时说:熊獾将在...秒后到来",
+		hover = "玩家会在熊獾每次吼叫的同时说:��獾将在...秒后到来",
 		label = "提示熊大",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
 
 	{
 		name = "twister_warning",
-		hover = "玩家会在飓风海豹每次吼叫的同时说:海豹将在...秒后到来",
+		hover = "玩家会在飓风��豹每次吼叫的同时说:海豹���在...秒后到来",
 		label = "提示豹龙卷",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
 
 	{
 		name = "hound_warning",
-		hover = "玩家会在猎犬袭击的警告声出现的时候说:猎犬袭击将在...秒后开始",
+		hover = "玩家会在猎犬袭击的警告声出现的时候说:猎��袭击���在...��后开始",
 		label = "提示猎犬",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
@@ -1854,8 +1866,8 @@ configuration_options = {
 		hover = "玩家会在蠕虫袭击的警告声出现的时候说:蠕虫袭击将在...秒后开始",
 		label = "提示蠕虫",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
@@ -1865,8 +1877,8 @@ configuration_options = {
 		hover = "玩家会在蚁狮地震前的提示时说:蚁狮地陷将在...秒后生成",
 		label = "提示蚁狮地陷",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
@@ -1876,8 +1888,8 @@ configuration_options = {
 		hover = "玩家会在蚁狮落石前的提示时说:蚁狮落石将在...秒后生成",
 		label = "提示蚁狮地陷落石",
 		options = {
-			{ description = "开启", data = true, hover = "启用" },
-			{ description = "关闭", data = false, hover = "禁用" },
+			{ description = "Enabled", data = true, hover = "Enabled" },
+			{ description = "关闭", data = false, hover = "Disabled" },
 		},
 		default = true,
 	},
@@ -1934,7 +1946,7 @@ configuration_options = {
 		name = "999999",
 		label = "幽灵玩家设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -1963,7 +1975,7 @@ configuration_options = {
 		name = "9999995599965",
 		label = "操作提升设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -2001,7 +2013,7 @@ configuration_options = {
 			{ description = "12", hover = "再缩放12步", data = 12 },
 			{ description = "14", hover = "再缩放14步", data = 14 },
 			{ description = "16", hover = "再缩放16步", data = 16 },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = 16,
 	},
@@ -2017,7 +2029,7 @@ configuration_options = {
 				data = "drop_on_grid_leftclick",
 			},
 			{ description = "正常下降", data = "normal_drop" },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = "normal_drop",
 	},
@@ -2028,7 +2040,7 @@ configuration_options = {
 		options = {
 			{ description = "瞬间移动", data = "instant_move" },
 			{ description = "正常移动", data = "normal_move" },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = "instant_move",
 	},
@@ -2047,7 +2059,7 @@ configuration_options = {
 		options = {
 			{ description = "默认打开", data = "default_on" },
 			{ description = "默认关闭", data = "default_off" },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = "default_off",
 	},
@@ -2079,8 +2091,8 @@ configuration_options = {
 		label = "自动回血",
 		hover = "这边可以开关自动回血哦",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 
@@ -2101,7 +2113,7 @@ configuration_options = {
 	},
 	{
 		name = "debug",
-		label = "调试消息",
+		label = "调试������",
 		hover = "是否将调试消息打印到控制台？",
 		options = bool_opt,
 		default = false,
@@ -2109,33 +2121,33 @@ configuration_options = {
 	{
 		name = "aq_changes",
 		hover = "对黑化排队论的改动",
-		label = "黑化排队论的改动",
+		label = "黑������队���的改动",
 		options = boolean,
 		default = true,
 	},
 	{
 		name = "drop_actionpicker",
-		hover = "禁用官方新的快捷丢弃",
-		label = "禁用官方快捷丢弃",
+		hover = "禁用官方新的快捷丢��",
+		label = "��用官方快��丢弃",
 		options = boolean,
 		default = true,
 	},
 	{
 		name = "dont_click_it",
-		hover = "不要点这些东西!",
-		label = "不要点这些东西",
+		hover = "不要点这些���西!",
+		label = "���要点这些东西",
 		options = boolean,
 		default = true,
 	},
 	{
 		name = "no_flower_picking",
 		hover = "不要捡花!",
-		label = "不要捡花",
+		label = "��要捡花",
 		options = {
-			{ description = "只有邪恶的花朵", data = "evil_only" },
+			{ description = "只有邪恶的花���", data = "evil_only" },
 			{ description = "仅限普通花", data = "normal_only" },
 			{ description = "邪恶与正常 ", data = "no_flower" },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = "evil_only",
 	},
@@ -2149,7 +2161,7 @@ configuration_options = {
 	{
 		name = "unblocked_castspell",
 		hover = "现在你可以随意在任何地方施法了！",
-		label = "随意施法",
+		label = "随意��法",
 		options = boolean,
 		default = true,
 	},
@@ -2219,7 +2231,7 @@ configuration_options = {
 		options = {
 			{ description = "全部允许", data = "all" },
 			{ description = "只有你的大理石", data = "sus_marbles_only" },
-			{ description = "禁用", data = false },
+			{ description = "Disabled", data = false },
 		},
 		default = "sus_marbles_only",
 	},
@@ -2306,7 +2318,7 @@ configuration_options = {
 		name = "9999995599999965",
 		label = "操作提升设置结束",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -2315,7 +2327,7 @@ configuration_options = {
 		name = "999999555",
 		label = "坐标系统设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -2386,7 +2398,7 @@ configuration_options = {
 		hover = "禁用可以自行添加路径点的功能",
 		options = {
 			{ description = "不禁用", data = false },
-			{ description = "禁用", data = true },
+			{ description = "Disabled", data = true },
 		},
 		default = false,
 	},
@@ -2404,13 +2416,13 @@ configuration_options = {
 		name = "95555555",
 		label = "地图系统设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
 	{
 		name = "BLENDMODE",
-		label = "地图混合",
+		label = "地图混��",
 		hover = "默认值：加法",
 		options = {
 			{ description = "无效 ", data = 0 },
@@ -2418,7 +2430,7 @@ configuration_options = {
 			{ description = "加法", data = 2 },
 			{ description = "预乘", data = 3 },
 			{ description = "反向", data = 4 },
-			{ description = "阿尔法加", data = 5 },
+			{ description = "阿尔��加", data = 5 },
 			{ description = "VFX测试", data = 6 },
 		},
 		default = 2,
@@ -2426,12 +2438,12 @@ configuration_options = {
 	{
 		name = "BLENDMODE_BG",
 		label = "背景混合模式",
-		hover = "默认值：阿尔法混合",
+		hover = "默认值：阿尔法���合",
 		options = {
 			{ description = "无效 ", data = 0 },
 			{ description = "阿尔法混合", data = 1 },
 			{ description = "加法", data = 2 },
-			{ description = "预乘", data = 3 },
+			{ description = "预��", data = 3 },
 			{ description = "反向", data = 4 },
 			{ description = "阿尔法加", data = 5 },
 			{ description = "VFX测试", data = 6 },
@@ -2439,8 +2451,8 @@ configuration_options = {
 		default = 1,
 	},
 	{
-		name = "判定地图方位",
-		label = "判定地图方位",
+		name = "判定地图方���",
+		label = "判���地图方位",
 		options = {
 			{ description = "0, 北", data = 0 },
 			{ description = "45, 东北", data = -45 },
@@ -2466,7 +2478,7 @@ configuration_options = {
 		name = "999999",
 		label = "超高数据显示设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -2696,7 +2708,7 @@ configuration_options = {
 		name = "3299565232",
 		label = "输入优化设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -2731,8 +2743,8 @@ configuration_options = {
 	},
 	{
 		name = "emojiTranslate",
-		label = "调整表情符号 ",
-		hover = "通过Tab/Enter在菜单中选择表情符号将在聊天屏幕中显示所选表情符号，而不是其输入代码。",
+		label = "调��表���符号 ",
+		hover = "通过Tab/Enter在菜单中选择表情符号将在聊天屏幕中显���所选表情符号，而不是其输入代码。",
 		options = booleanoptions,
 		default = false,
 	},
@@ -2753,9 +2765,9 @@ configuration_options = {
 	{
 		name = "emojiDisplay",
 		label = "表情符号快捷方式显示 ",
-		hover = "在快捷菜单中定义所选表情符号的标记" .. Emoji_text,
+		hover = "在快捷菜单中定义所���表情符号的标记" .. Emoji_text,
 		options = {
-			{ data = "", description = "禁用" },
+			{ data = "", description = "Disabled" },
 			{ data = false, description = "标准" },
 			{ data = "●", description = "圆圈" },
 			{ data = "■", description = "正方形" },
@@ -2850,7 +2862,7 @@ configuration_options = {
 		name = "323332336",
 		label = "禁声系统设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -3055,7 +3067,7 @@ configuration_options = {
 	},
 	{
 		name = "staff",
-		label = "禁止矮星和极光  staff_star,coldlight",
+		label = "禁止���星和极光  staff_star,coldlight",
 		hover = "设置矮星和极光是否没有声音",
 		options = {
 			{ description = "Yes", data = 1 },
@@ -3065,8 +3077,8 @@ configuration_options = {
 	},
 	{
 		name = "chester",
-		label = "禁止切斯特走路  chester",
-		hover = "设置切斯特走路是否没有声音",
+		label = "���止切斯特走路  chester",
+		hover = "设置切���特走路是否没有声音",
 		options = {
 			{ description = "Yes", data = 1 },
 			{ description = "No", data = 0 },
@@ -3075,7 +3087,7 @@ configuration_options = {
 	},
 	{
 		name = "lureplants",
-		label = "禁止食人花  lureplants",
+		label = "禁���食人花  lureplants",
 		hover = "设置食人花是否没有声音",
 		options = {
 			{ description = "Yes", data = 1 },
@@ -3086,7 +3098,7 @@ configuration_options = {
 	{
 		name = "thunder",
 		label = "禁止打雷  thunder",
-		hover = "设置打雷是否没有声音",
+		hover = "设��打雷是否没有声音",
 		options = {
 			{ description = "Yes", data = 1 },
 			{ description = "No", data = 0 },
@@ -3194,7 +3206,7 @@ configuration_options = {
 		name = "32333233",
 		label = "快捷宣告设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -3352,15 +3364,15 @@ configuration_options = {
 		label = "定制表演家 维斯语录",
 		hover = "当你是维斯时，会宣告表演家专有语录。",
 		options = {
-			{ description = "开", data = true },
+			{ description = "���", data = true },
 			{ description = "关", data = false },
 		},
 		default = true,
 	},
 	{
 		name = "WAXWELL",
-		label = "定制暗法师 麦斯威尔语录",
-		hover = "当你是麦斯威尔时，会宣告暗影魔法师专有语录。",
+		label = "���制暗法师 麦斯威尔语录",
+		hover = "当你是麦斯威尔时，会��告暗影魔法��专有语录。",
 		options = {
 			{ description = "开", data = true },
 			{ description = "关", data = false },
@@ -3370,7 +3382,7 @@ configuration_options = {
 	{
 		name = "WEBBER",
 		label = "定制蜘蛛人 韦帕语录",
-		hover = "当你是韦帕时，会宣告蜘蛛人专有语录。",
+		hover = "当你���韦帕时，会宣告蜘蛛人专有语录。",
 		options = {
 			{ description = "开", data = true },
 			{ description = "关", data = false },
@@ -3379,8 +3391,8 @@ configuration_options = {
 	},
 	{
 		name = "WATHGRITHR",
-		label = "定制女战神 瓦弗德语录",
-		hover = "当你是瓦弗德时，会宣告战武神专有语录。",
+		label = "定制女战神 瓦弗德语���",
+		hover = "当你是瓦弗德时，��宣告战武神专有语录。",
 		options = {
 			{ description = "开", data = true },
 			{ description = "关", data = false },
@@ -3471,7 +3483,7 @@ configuration_options = {
 		name = "32333233",
 		label = "快捷表情设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -3503,7 +3515,7 @@ configuration_options = {
 		name = "CENTERWHEEL",
 		label = "中心轮",
 		options = {
-			{ description = "启用", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -3616,7 +3628,7 @@ configuration_options = {
 		name = "3233323344",
 		label = "信息显示设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -3642,8 +3654,8 @@ configuration_options = {
 		label = "显示食物三维属性",
 		hover = "如服务器未开启 Show Me，可选择开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
@@ -3652,8 +3664,8 @@ configuration_options = {
 		label = "显示腐烂倒计时",
 		hover = "如服务器未开启 Show Me，可选择开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
@@ -3673,48 +3685,48 @@ configuration_options = {
 		label = "小鱼人沃特 | 肉料统计",
 		hover = "设置为开启并玩沃特时，你将看到肉类料理统计(饥饿、理智、健康)",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
 	{
 		name = "WIG_VEGGIE",
-		label = "女武神薇格弗德 | 素料统计",
+		label = "女武神薇格弗德 | 素料��计",
 		hover = "设置为开启并玩女武神时，你将看到素类料理统计(饥饿，理智，健康)",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
 	{
 		name = "WORM_HEALTH",
-		label = "植物人沃姆伍德 | 料理健康统计",
-		hover = "设置为开启并玩植物人时，你将看到料理的生命值加成",
+		label = "植物人沃姆伍德 | ���理健康统计",
+		hover = "���置为开启并玩植物人时，你将看到料理的生命值加成",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
 	{
 		name = "SHOW_INFO_HANDS",
 		label = "显示手部装备",
-		hover = "如果你想看到你的手装备项目信息可设置成开启",
+		hover = "如果你想看到你的��装备项目信息可设置成开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
 	{
 		name = "SHOW_INFO_BODY",
 		label = "显示身体装备",
-		hover = "如果你想看到你的身体装备项目信息可设置成开启",
+		hover = "如果你想���到你的身体装备项目信息可设置��开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = true,
 	},
@@ -3723,8 +3735,8 @@ configuration_options = {
 		label = "显示头部装备",
 		hover = "如果你想看到你的头装备项目信息可设置成开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "����用", data = false },
 		},
 		default = true,
 	},
@@ -3740,8 +3752,8 @@ configuration_options = {
 		label = "物品代码名称(Prefab name)",
 		hover = "如果你想看到物品的代码名称可设置为开启，身为Mods制作者感觉此功能真香",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 	},
@@ -3750,8 +3762,8 @@ configuration_options = {
 		label = "显示背景",
 		hover = "巨丑建议关闭，如果你想看到装备信息的背景可设置为开启",
 		options = {
-			{ description = "开启", data = true },
-			{ description = "禁用", data = false },
+			{ description = "Enabled", data = true },
+			{ description = "Disabled", data = false },
 		},
 		default = false,
 	},
@@ -3775,11 +3787,11 @@ configuration_options = {
 		default = true,
 		options = {
 			{
-				description = "启用",
+				description = "Enabled",
 				data = true,
 			},
 			{
-				description = "禁用",
+				description = "Disabled",
 				data = false,
 			},
 		},
@@ -3790,11 +3802,11 @@ configuration_options = {
 		default = true,
 		options = {
 			{
-				description = "启用",
+				description = "Enabled",
 				data = true,
 			},
 			{
-				description = "禁用",
+				description = "Disabled",
 				data = false,
 			},
 		},
@@ -3805,11 +3817,11 @@ configuration_options = {
 		default = true,
 		options = {
 			{
-				description = "启用",
+				description = "Enabled",
 				data = true,
 			},
 			{
-				description = "禁用",
+				description = "Disabled",
 				data = false,
 			},
 		},
@@ -3882,7 +3894,7 @@ configuration_options = {
 		name = "CTRL",
 		label = "Ctrl切换MOD状态",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = false,
@@ -3914,7 +3926,7 @@ configuration_options = {
 		name = "SHOWMENU",
 		label = "游戏内菜单",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -3924,7 +3936,7 @@ configuration_options = {
 		name = "BUILDGRID",
 		label = "显示构建网格",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -3955,7 +3967,7 @@ configuration_options = {
 		name = "HIDEPLACER",
 		label = "隐藏放置物体虚影",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = false,
@@ -4025,14 +4037,14 @@ configuration_options = {
 		label = "建筑不可放置颜色",
 		options = color_options,
 		default = "blackoutline",
-		hover = "用于不能放置建筑颜色.",
+		hover = "用于不能��置建筑颜色.",
 	},
 	{
 		name = "NEARTILECOLOR",
 		label = "最近的地皮颜色",
 		options = color_options,
 		default = "white",
-		hover = "用于最近的地皮颜色.",
+		hover = "用��最近的���皮颜色.",
 	},
 	{
 		name = "GOODTILECOLOR",
@@ -4043,24 +4055,24 @@ configuration_options = {
 	},
 	{
 		name = "BADTILECOLOR",
-		label = "地皮不可放置颜色",
+		label = "地皮不可��置颜色",
 		options = color_options,
 		default = "blackoutline",
-		hover = "在那里你不能放置地皮.",
+		hover = "��那里你不能放置地皮.",
 	},
 	{
 		name = "GOODPLACERCOLOR",
 		label = "建筑放置颜色",
 		options = placer_color_options,
 		default = "white",
-		hover = "用于显示建筑放置颜色.",
+		hover = "用于显示建筑��置颜色.",
 	},
 	{
 		name = "BADPLACERCOLOR",
 		label = "建筑不可放置颜色",
 		options = placer_color_options,
 		default = "black",
-		hover = "用于显示不可放置建筑颜色.",
+		hover = "用于��示不可放置建筑颜色.",
 	},
 	{
 		name = "REDUCECHESTSPACING",
@@ -4076,11 +4088,11 @@ configuration_options = {
 		name = "CONTROLLEROFFSET",
 		label = "控制器偏移",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = false,
-		hover = "使用控制器，无论对象是在您的脚下（“关闭”）还是在偏移位置（“打开”）放置。.",
+		hover = "使用控制器，无论对象是���您��脚下（“关闭”）还是在偏移位置（“打开”）放置。.",
 	},
 	{
 		name = "555555",
@@ -4112,7 +4124,7 @@ configuration_options = {
 		hover = "显示保存的项目在其保存的插槽上方的图标,单击图标以清除该项目保存的插槽",
 
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "隐藏", data = false },
 		},
 
@@ -4160,7 +4172,7 @@ configuration_options = {
 		hover = "保存插槽行为的初始状态,仅在配置切换键时使用.",
 
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 
@@ -4172,7 +4184,7 @@ configuration_options = {
 		label = "禁用插槽图标点击",
 		hover = "禁用插槽图标点击",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = false,
@@ -4183,7 +4195,7 @@ configuration_options = {
 		label = "为空间配备装备",
 		hover = "允许一个物品使用空槽，以便为即将到来的物品腾出空间",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -4218,7 +4230,7 @@ configuration_options = {
 		name = "3233323d",
 		label = "黑化排队论设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -4247,7 +4259,7 @@ configuration_options = {
 		name = "3233323",
 		label = "自动钓鱼设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -4256,7 +4268,7 @@ configuration_options = {
 		hover = [[鱼上钩时帮你自动收线,自动检测鱼竿张力避免脱钩]],
 		name = "autoreel",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -4266,7 +4278,7 @@ configuration_options = {
 		hover = [[手拿海钓杆时点击鱼群将显示鱼群种类、鱼饵偏好、推荐饵料]],
 		name = "fishtips",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -4277,7 +4289,7 @@ configuration_options = {
 近距离钓鱼时，自动选择较大概率可以在鱼不挣扎的情况下将鱼瞬间捕获的点位。]],
 		name = "optimumpos",
 		options = {
-			{ description = "开启", data = true },
+			{ description = "Enabled", data = true },
 			{ description = "关闭", data = false },
 		},
 		default = true,
@@ -4346,10 +4358,10 @@ configuration_options = {
 	{
 		name = "自动烹饪laggy_mode",
 		hover = "如果很卡的话再开",
-		label = "如果很卡的话再开",
+		label = "如果很卡的��再开",
 		options = {
 			{ description = "关闭", data = "off", hover = "Always off" },
-			{ description = "开启", data = "on", hover = "Always on" },
+			{ description = "Enabled", data = "on", hover = "Always on" },
 			{ description = "游戏里", data = "in_game", hover = "Toggleable in game" },
 		},
 		default = "off",
@@ -4367,7 +4379,7 @@ configuration_options = {
 		name = "3233323",
 		label = "全局颜色设置",
 		hover = " ",
-		options = { { description = "", data = 0 } }, 
+		options = { { description = "", data = 0 } },
 		default = 0,
 
 	},
@@ -4383,7 +4395,7 @@ configuration_options = {
 		name = "colour_mobaggroyou",
 		label = "仇恨你的目标显示颜色",
 		hover = "对你有敌意的生物应该显示什么颜色",
-		options = colour2, 
+		options = colour2,
 		default = colour.red, --Red
 
 	},
@@ -4392,7 +4404,7 @@ configuration_options = {
 		name = "colour_mobaggroplayer",
 		label = "仇恨其他玩家生物显示颜色",
 		hover = "对另一个玩家有仇恨的生物应该显示什么颜色",
-		options = colour2, 
+		options = colour2,
 		default = colour.orange, --Orange
 
 	},
@@ -4401,7 +4413,7 @@ configuration_options = {
 		name = "colour_mobfriendyou",
 		label = "与你结交的生物它们是什么颜色",
 		hover = "与你结交的生物它们是什么颜色",
-		options = colour2, 
+		options = colour2,
 		default = colour.green, --Green
 
 	},
@@ -4410,7 +4422,7 @@ configuration_options = {
 		name = "colour_mobfriendo第r",
 		label = "被别的玩家驯服应该显示什么颜色",
 		hover = "被别的玩家驯服应该显示什么颜色",
-		options = colour2, 
+		options = colour2,
 		default = colour.yellow, --Yellow
 
 	},
@@ -4419,7 +4431,7 @@ configuration_options = {
 		name = "colour_mobaggrofollower",
 		label = "追随者的颜色",
 		hover = "对特殊追随者（如伯尼）有敌意的暴徒应该是什么颜色！，阿比盖尔）",
-		options = colour2, 
+		options = colour2,
 		default = colour.purple, --Purple
 
 	},
@@ -4428,14 +4440,14 @@ configuration_options = {
 		name = "show_widget",
 		label = "默认显示计时器",
 		hover = "是否默认显示怪物攻击计时器",
-		options = { { description = "开启", data = true }, { description = "关闭", data = false } },
+		options = { { description = "Enabled", data = true }, { description = "关闭", data = false } },
 		default = true,
 	},
 	{
 		name = "scaletext",
 		label = "摄像头缩放文本",
 		hover = "使用相机距离缩放小部件文本大小。较高的相机距离=较小的文本，反之亦然。",
-		options = { { description = "开启", data = true }, { description = "关闭", data = false } },
+		options = { { description = "Enabled", data = true }, { description = "关闭", data = false } },
 		default = true,
 	},
 	{
